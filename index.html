@@ -17,6 +17,8 @@
             display : flex;
             justify-content: space-between;
             align-items: center;
+            position: sticky;
+            top: 0px;
         }
         .row1{
             
@@ -46,15 +48,15 @@
     <div class = "container">
         <div class = "row">
             <div class = "box"> <h1>Vismay C V</h1></div>
-                <div class = "box"><a href="#">Home</a> | <a href="#">About</a> | <a href="#">Services</a> | <a href="#">Project</a> | <a href="#">Contact</a></div>
+                <div class = "box"><a href="#Home">Home</a> | <a href="#">About</a> | <a href="#">Services</a> | <a href="#Project">Project</a> | <a href="#">Contact</a></div>
         </div>
 
-        <div class = "row1">
+        <div class = "row1" id = "Home">
             <div><h1>Vismay C V</h1><h3>Full Stack Developer</h3></div>
             <div><img src="https://picsum.photos/id/1/400/300"/></div>
         </div>
 
-        <div class = "row2">
+        <div class = "row2" id = "Project">
             <div><h1>Projects</h1>
             <ol>
                 <li>Project1</li>
